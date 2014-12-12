@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    font: 62.5% sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #545468;
+    line-height: 1.2;
+    background: #111;
+    /*background: url('../img/background.jpg');*/
+}
+
+a, a:visited, a:hover, a:active {
+  color: #545468;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.outdated, .rotate, .hidden {
+  display: none;
+}
+
+.no-modern .outdated, .rotation .rotate {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -140px;
+}
+
+.outdated img {
+  width: 543px;
+  max-width: 90%;
+  height: auto;
+}
+
+.rotate img {
+  width: 442px;
+  max-width: 90%;
+  height: auto;
+}
+
+.rotation .terms {
+  display: none;
+}
+
+.rotation .wrapper {
+  display: none;
+}

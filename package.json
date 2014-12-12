@@ -1,0 +1,54 @@
+{
+  "name": "ld31",
+  "version": "0.0.1",
+  "description": "Ludum Dare 31: Entire Game on One Screen",
+  "keywords": [
+    "game",
+    "phaser",
+    "phaserJS",
+    "template",
+    "boilerplate",
+    "js",
+    "javascript",
+    "gulp",
+    "browserify"
+  ],
+  "main": "src/js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianmcgregor/ld31"
+  },
+  "author": "ianmcgregor",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "browser-sync": "~1.7.2",
+    "browserify": "^6.3.3",
+    "browserify-shim": "^3.8.0",
+    "chalk": "^0.5.1",
+    "gulp": "^3.8.10",
+    "gulp-if": "^1.2.5",
+    "gulp-jshint": "^1.9.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-streamify": "^0.0.5",
+    "gulp-strip-debug": "^1.0.2",
+    "gulp-uglify": "^1.0.1",
+    "jshint-stylish": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "p2": "~0.6.0",
+    "usfl": "~0.2.7"
+  },
+  "browser": {
+    "Phaser": "./bower_components/phaser-official/build/phaser.min.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "Phaser": {
+      "exports": "Phaser"
+    }
+  }
+}

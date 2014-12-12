@@ -1,0 +1,54 @@
+# OS
+
+._*
+.DS_Store
+.DS_Store?
+.AppleDouble
+Icon?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# VCS
+
+.svn
+*.orig
+!.gitinclude
+
+# IDE
+
+.settings/
+.project
+user.properties
+.idea
+.idea?
+.metadata/*
+*.ignore
+*.sublime-*
+*~
+*.swp
+*.swo
+# dploy.yaml
+/reports/
+
+# BINARIES
+
+*.mp4
+*.webm
+*.ogv
+*.mp3
+*.wav
+*.ogg
+*.air
+*.pyc
+
+# JAVASCRIPT
+
+node_modules/
+bower_components/
+
+# FOLDERS
+
+assets/
